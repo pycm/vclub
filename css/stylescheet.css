@@ -1,0 +1,177 @@
+@import url(bootstrap.css);
+* {
+  box-sizing: border-box; }
+
+body {
+  background: url(../img/bg-main.jpg); }
+
+.navbar {
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  margin-bottom: 0;
+  padding: 0;
+  border-top: 4px solid #000;
+  border-bottom: 1px solid rgba(88, 83, 80, 0.48); }
+  .navbar .navbar-inner {
+    width: 720px;
+    margin: auto;
+    text-align: right;
+    padding-right: 0; }
+    .navbar .navbar-inner .brand {
+      padding: 6px 30px; }
+      .navbar .navbar-inner .brand .logo {
+        display: block;
+        width: 62px;
+        height: 36px;
+        background: url(../img/brand-logo.png) no-repeat; }
+    .navbar .navbar-inner .welcome {
+      margin-right: 10px;
+      vertical-align: top;
+      line-height: 50px; }
+    .navbar .navbar-inner .nav {
+      margin: 0;
+      float: none;
+      display: inline-block; }
+      .navbar .navbar-inner .nav li {
+        position: relative;
+        border-left: 1px solid rgba(0, 0, 0, 0.2); }
+      .navbar .navbar-inner .nav .active a {
+        border: none;
+        background: none;
+        box-shadow: none; }
+      .navbar .navbar-inner .nav .active::after {
+        content: ' ';
+        position: absolute;
+        width: 100%;
+        display: block;
+        bottom: -1px;
+        left: 0;
+        height: 1px;
+        background: #e7b136; }
+      .navbar .navbar-inner .nav a {
+        padding: 14px 20px 13px; }
+        .navbar .navbar-inner .nav a i {
+          display: block;
+          height: 23px;
+          background: url(../img/nav-sprite.png) no-repeat; }
+        .navbar .navbar-inner .nav a .wine {
+          width: 36px; }
+        .navbar .navbar-inner .nav a .concierge {
+          width: 75px;
+          background-position: -36px 0; }
+        .navbar .navbar-inner .nav a .account {
+          width: 63px;
+          background-position: -112px 0; }
+      .navbar .navbar-inner .nav a:hover i,
+      .navbar .navbar-inner .nav .active i {
+        background-position: 0 -23px; }
+      .navbar .navbar-inner .nav a:hover .concierge,
+      .navbar .navbar-inner .nav .active .concierge {
+        background-position: -36px -23px; }
+      .navbar .navbar-inner .nav a:hover .account,
+      .navbar .navbar-inner .nav .active .account {
+        background-position: -112px -23px; }
+
+.row {
+  position: relative;
+  margin: auto;
+  width: 720px;
+  border-left: 1px solid #403d3d;
+  border-right: 1px solid #403d3d;
+  background: url(../img/bg-content.jpg); }
+  .row .span1 {
+    margin: auto; }
+
+.row::before,
+.row::after {
+  content: ' ';
+  position: absolute;
+  width: 18px;
+  display: block;
+  top: 95px;
+  height: 1000px;
+  opacity: 0.6;
+  background: url(../img/bg-decor.png) 0 0 no-repeat; }
+
+.row::before {
+  left: -29px; }
+
+.row::after {
+  right: -29px; }
+
+.header {
+  width: 100%;
+  height: 400px;
+  padding-top: 50px; }
+
+.stripe {
+  width: 100%;
+  height: 49px;
+  background: url(../img/bg-stripe.jpg); }
+
+.span1 .content-header {
+  font-size: 24px;
+  position: relative;
+  text-align: center; }
+.span1 .content-header::after {
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  display: block;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background: #454242; }
+.span1 .video {
+  padding: 15px;
+  background: #111111; }
+.span1 .text-header {
+  font-size: 19px;
+  font-weight: normal;
+  color: #e9b539; }
+.span1 .columns {
+  font: 0/0 a; }
+  .span1 .columns .column {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding-left: 1em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A4A4A4;
+    position: relative; }
+    .span1 .columns .column .quote {
+      font-size: 18px;
+      font-style: oblique; }
+  .span1 .columns .column:first-child::after {
+    content: ' ';
+    position: absolute;
+    width: 1px;
+    display: block;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background: #383535; }
+.span1 .footer .glass {
+  height: 40px; }
+
+.product .header {
+  position: relative;
+  background: url(../img/hero-image.jpg) 0 4px no-repeat; }
+  .product .header .cert {
+    top: 100px;
+    left: 100px;
+    position: absolute;
+    width: 145px;
+    height: 275px;
+    background: red; }
+  .product .header .info {
+    top: 100px;
+    right: 100px;
+    position: absolute;
+    width: 280px;
+    height: 285px;
+    background: red; }

@@ -1,0 +1,294 @@
+// Import bootstrap
+@import "bootstrap.css";
+
+// Import variables
+@import "variabless.scss";
+
+// Global style (begin)
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background: url(../img/bg-main.jpg);
+}
+// Global style (end)
+
+// Nav bar (begin)
+.navbar
+{
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    margin-bottom: 0;
+    padding: 0;
+    border-top: 4px solid #000;
+    border-bottom: 1px solid rgba(88,83,80,0.48);
+    // TODO: добавить тень под меню
+    .navbar-inner
+    {
+        width: $main-width;
+        margin: auto;
+        text-align: right;
+        padding-right: 0;
+        .brand
+        {
+            padding: 6px 30px;
+            .logo
+            {
+                display: block;
+
+                width: 62px;
+                height: 36px;
+
+                background: url(../img/brand-logo.png) no-repeat;
+            }
+        }
+        .welcome
+        {
+            margin-right: 10px;
+            vertical-align: top;    
+            line-height: $nav-height;
+        }
+        .nav
+        {
+            margin: 0;
+            float: none;
+            display: inline-block;
+            
+            li
+            {
+                position: relative;
+
+                // TODO: сделать с правой стороны тень 1px
+                border-left: 1px solid rgba(0,0,0,0.20);
+            }
+            
+            .active
+            {
+                a
+                {
+                    border: none;
+                    background: none;
+                    box-shadow: none;
+                }
+            }
+            
+            .active::after
+            {
+                @include after(100%);
+
+                bottom: -1px;
+                left: 0;
+                height: 1px;
+
+                // TODO: сделать градиент и тень
+                background: #e7b136;
+            }
+            a
+            {
+                padding: 14px 20px 13px;
+
+                i
+                {
+                    display: block;
+
+                    height: 23px;
+
+                    background: url(../img/nav-sprite.png) no-repeat;
+                }
+                .wine
+                {
+                    width: 36px;
+                }
+                .concierge
+                {
+                    width: 75px;
+
+                    background-position: -36px 0;
+                }
+                .account
+                {
+                    width: 63px;
+
+                    background-position: -112px 0;
+                }
+            }
+            a:hover,
+            .active
+            {
+                i
+                {
+                    background-position: 0 -23px;
+                }
+                .concierge
+                {
+                    background-position: -36px -23px;
+                }
+                .account
+                {
+                    background-position: -112px -23px;
+                }
+            }
+        }
+    }
+}
+// Nav bar (end)
+
+// Content (begin)
+.row
+{
+    position: relative;
+    margin: auto;
+    width: $main-width;
+    border-left: 1px solid #403d3d;
+    border-right: 1px solid #403d3d;
+    background: url(../img/bg-content.jpg);
+
+    .span1
+    {
+        margin: auto;
+    }
+}
+
+.row::before,
+.row::after
+{
+    @include after(18px);
+
+    top: 95px;
+    height: 1000px;
+    opacity: 0.6;
+    background: url(../img/bg-decor.png) 0 0 no-repeat;
+}
+
+.row::before
+{
+    left: -29px;
+}
+
+.row::after
+{
+    right: -29px;
+}
+
+.header
+{
+    width: 100%;
+    height: 400px;
+    padding-top: 50px;
+}
+
+.stripe
+{
+    width: 100%;
+    height: 49px;
+
+    background: url(../img/bg-stripe.jpg);
+}
+
+.span1
+{
+    .content-header
+    {
+        @include h1;
+
+        position: relative;
+        text-align: center;
+    }
+    .content-header::after
+    {
+        @include after(100%);
+
+        height: 2px;
+        bottom: -2px;
+        left: 0;
+
+        //TODO: Заменить на градиент от 454242 к 0
+        background: #454242;
+    }
+    .video
+    {
+        padding: 15px;
+        //TODO: добавить иннер шадоу
+        background: #111111;
+    }
+    .text-header
+    {
+        @include h2;
+
+        color: #e9b539;
+    }
+    .columns
+    {
+        font: 0/0 a;
+        
+        .column
+        {
+            @include column(50%);
+            @include text;
+
+            position: relative;
+
+            .quote
+            {
+                @include quote;
+            }
+        }
+        .column:first-child::after
+        {
+            @include after(1px);
+
+            right: 0;
+            top: 0;
+            height: 100%;
+
+            //TODO: Заменить на градиент
+            background: #383535;
+        }
+    }
+    .footer
+    {
+        .glass
+        {
+            height: 40px;
+        }    
+    }
+}
+// Content (end)
+
+// Product customithation (begin)
+.product
+{
+    .header
+    {
+        position: relative;
+        background: url(../img/hero-image.jpg) 0 4px no-repeat;
+
+        .cert
+        {
+            top: 100px;
+            left: 100px;
+            position: absolute;
+            width: 145px;
+            height: 275px;
+            //TODO: выпилить цвет фона добавить тенюшку
+            background: red;
+        }
+
+        .info
+        {
+            top: 100px;
+            right: 100px;
+            position: absolute;
+            width: 280px;
+            height: 285px;
+            //TODO: выпилить цвет фона
+            background: red;
+        }
+    }
+}
+// Product customithation (end)

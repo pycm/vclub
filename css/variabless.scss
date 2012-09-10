@@ -1,0 +1,48 @@
+// Navigation
+$nav-height: 50px;
+
+// layout
+$main-width: 720px;
+
+// Main text
+@mixin text {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #A4A4A4;
+}
+
+//Pull quote
+@mixin quote {
+	font-size: 18px;
+	font-style: oblique;	
+}
+//Header lvl 1
+@mixin h1 {
+	font-size: 24px;
+}
+
+// Header lvl 2
+@mixin h2 {
+	font-size: 19px;
+	font-weight: normal;
+}
+
+//TODO: Вынести в переменную стайлгайдовые штуки
+
+// Columns
+@mixin column($width) {
+  display: inline-block;
+  vertical-align: top;
+  width: $width;
+  padding-left: 1em;
+}
+
+
+// ::after
+@mixin after($width) {
+	content: ' ';
+	position: absolute;
+	width: $width;
+	display: block;
+}
