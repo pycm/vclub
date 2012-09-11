@@ -1,0 +1,657 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"after"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"co",
+				"column"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"cont",
+				"content-header"
+			],
+			[
+				"f",
+				"find"
+			],
+			[
+				"wrapp",
+				"wrapper"
+			],
+			[
+				"wrapper",
+				"wrapperClass"
+			],
+			[
+				"ta",
+				"tabId"
+			],
+			[
+				"tabs",
+				"tabsHeader"
+			],
+			[
+				"for",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"Tool",
+				"Tooltip"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"o",
+				"offsetX"
+			],
+			[
+				"cur",
+				"cursorX"
+			],
+			[
+				"appe",
+				"appendTo"
+			],
+			[
+				"mous",
+				"mouseup"
+			],
+			[
+				"mouse",
+				"mouseleave"
+			],
+			[
+				"th",
+				"that"
+			],
+			[
+				"mos",
+				"mouseup"
+			],
+			[
+				"cu",
+				"cursorX"
+			],
+			[
+				"window",
+				"windowPosY"
+			],
+			[
+				"ma",
+				"maxTopPos"
+			],
+			[
+				"pag",
+				"pageX"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"my",
+				"MyWindow"
+			],
+			[
+				"m",
+				"myElem"
+			],
+			[
+				"name",
+				"nameWindow"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"time",
+				"timeout	setTimeout function"
+			],
+			[
+				"tra",
+				"transformSupport"
+			],
+			[
+				"slides",
+				"slidesPosition"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"c",
+				"changePosition"
+			],
+			[
+				"curr",
+				"currentArrow"
+			],
+			[
+				"ri",
+				"rightArrow"
+			],
+			[
+				"left",
+				"leftArrow"
+			],
+			[
+				"slide",
+				"slidesPosition"
+			],
+			[
+				"slid",
+				"slidesPosition"
+			],
+			[
+				"va",
+				"valign"
+			],
+			[
+				"content",
+				"content"
+			],
+			[
+				"elem",
+				"elem"
+			],
+			[
+				"el",
+				"elem"
+			],
+			[
+				"filter",
+				"filters-group"
+			],
+			[
+				"b-filter",
+				"b-filter-layout"
+			],
+			[
+				"b-form",
+				"b-form-input"
+			],
+			[
+				"doubt",
+				"doubtful"
+			],
+			[
+				"conten",
+				"content"
+			],
+			[
+				"d",
+				"display	display: inline"
+			],
+			[
+				"ba",
+				"background	background-position: position"
+			],
+			[
+				"pa",
+				"padding	padding: all"
+			],
+			[
+				"sumT",
+				"sumToLoop"
+			],
+			[
+				"sum",
+				"sumToAlgebra"
+			],
+			[
+				"ch",
+				"checkAge2"
+			],
+			[
+				"che",
+				"checkAge1"
+			],
+			[
+				"район",
+				"район"
+			],
+			[
+				"ti",
+				"title	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Pa",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"show",
+				"Show TODOs: Open files only"
+			],
+			[
+				"todo",
+				"Show TODOs: Open files only"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ssyrkin/Dropbox/Public/project/css/stylescheet.scss",
+		"/Users/ssyrkin/Sites/vclub/project/css/variabless.scss",
+		"/Users/ssyrkin/Sites/vclub/project/css/stylescheet.css",
+		"/Users/ssyrkin/Sites/vclub/project/css/bootstrap.css",
+		"/Users/ssyrkin/Sites/vclub/project/css/stylescheet.sass",
+		"/Users/ssyrkin/Sites/vclub/project/css/bootstrap-responsive.css",
+		"/Users/ssyrkin/Sites/vclub/files/bootstrap_custom/css/bootstrap.css",
+		"/Users/ssyrkin/Sites/vclub/files/bootstrap_custom/css/bootstrap.min.css",
+		"/data/db/test.ns",
+		"/data/db/test.1",
+		"/data/db/test.0",
+		"/data/db/mongod.lock",
+		"/Applications/XAMPP/xamppfiles/lib/php/pear/Zend/Locale/Data/uz_Latn.xml",
+		"/Users/ssyrkin/.ssh/id_dsa.pub",
+		"/Users/ssyrkin/Sites/realty/blocks-desktop/b-form-select/b-form-select.js",
+		"/Users/ssyrkin/Sites/realty/mx/resources/subscriptions/subscriptions-config.xml",
+		"/Users/ssyrkin/Sites/rabota-old/pages-desktop/search/search.raw.xml",
+		"/Users/ssyrkin/Sites/rabota-old/search.xsl",
+		"/Users/ssyrkin/Sites/rabota-old/mx/components/search-results/sorters/search-results__sorters.xsl",
+		"/Users/ssyrkin/Sites/rabota-old/mx/components/search-results/actions/search-results__actions.xsl",
+		"/Users/ssyrkin/Sites/rabota-old/search.xml",
+		"/Users/ssyrkin/Sites/rabota-old/mx/resources/popular-professions/popular-professions.xml",
+		"/Volumes/iStat Menus 3.18/serial.rtf",
+		"/Users/ssyrkin/Downloads/webfontkit-20120725-041324/stylesheet.css",
+		"/Users/ssyrkin/Downloads/webfontkit-20120618-070302/stylesheet.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/wols/sites/all/themes/touch/template.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wols/sites/default/settings.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wols/sites/all/themes/touch/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/wols/sites/all/themes/touch/templates/page--front.tpl.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wols/sites/all/themes/touch/templates/page.tpl.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wols/sites/all/modules/README.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/wols/sites/all/modules/audiofield_formatter.inc",
+		"/Applications/XAMPP/xamppfiles/htdocs/wols/sites/all/themes/touch/touch.info",
+		"/Applications/XAMPP/xamppfiles/htdocs/wols/sites/all/themes/touch/theme-settings.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wols/sites/all/themes/touch/templates/node--page.tpl.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wols/sites/all/themes/touch/templates/maintenance-page.tpl.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wols/sites/all/themes/touch/templates/block.tpl.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wols/sites/all/themes/touch/css/slideshow.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/wols/sites/all/themes/touch/js/slider.js",
+		"/Volumes/iLife '11 Install DVD/Read Before You Install iLife.app/Contents/Resources/ru.lproj/Прочитайте перед установкой iLife.rtf",
+		"/Applications/XAMPP/xamppfiles/htdocs/wols/sites/all/themes/touch/js/class-extend.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/wols/sites/all/themes/touch/js/scrolltopcontrol.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/wols/sites/default/files/baner/1_1_ill2.jpg",
+		"/Users/ssyrkin/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/wols/sites/all/themes/touch/images/dot_on.png",
+		"/Applications/XAMPP/xamppfiles/htdocs/wols/sites/all/themes/touch/images/toolbar_center.jpg",
+		"/Users/ssyrkin/Яндекс.Диск/wols/slider/toolbar_center.jpeg",
+		"/Users/ssyrkin/Library/Application Support/Sublime Text 2/Packages/User/wols.sublime-project",
+		"/Users/ssyrkin/Sites/lego/blocks-desktop/b-form-button/b-form-button.js",
+		"/Users/ssyrkin/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/Users/ssyrkin/Library/Application Support/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
+		"/Users/ssyrkin/Sites/lego/blocks-desktop/i-font/_face/i-font_face_konkord.css",
+		"/Users/ssyrkin/Downloads/webfontkit-20120618-064431/stylesheet.css",
+		"/Users/ssyrkin/Desktop/touch - копия/templates/page--front.tpl.php",
+		"/Users/ssyrkin/Downloads/style (1).css",
+		"/Applications/XAMPP/xamppfiles/htdocs/wols/sites/default/default.settings - копия.php",
+		"/Users/ssyrkin/Sites/wols/sites/all/themes/touch/style.css",
+		"/Users/ssyrkin/Sites/mwayit/invest38/index-7_en.html",
+		"/Users/ssyrkin/Sites/mwayit/invest38/index-8_en.html",
+		"/Users/ssyrkin/Sites/mwayit/invest38/index-9_en.html",
+		"/Users/ssyrkin/Sites/mwayit/invest38/index-9.html",
+		"/Users/ssyrkin/Sites/mwayit/invest38/index-8.html",
+		"/Users/ssyrkin/Sites/mwayit/invest38/index-4_en.html",
+		"/Users/ssyrkin/Sites/mwayit/invest38/css/style.css",
+		"/Users/ssyrkin/Sites/mwayit/invest38/index-6_en.html",
+		"/Users/ssyrkin/Sites/mwayit/invest38/index-5_en.html",
+		"/Users/ssyrkin/Sites/mwayit/invest38/index-5.html",
+		"/Users/ssyrkin/Sites/mwayit/invest38/index-3_en.html",
+		"/Users/ssyrkin/Sites/mwayit/invest38/index-3.html",
+		"/Users/ssyrkin/Sites/mwayit/invest38/index.html",
+		"/Users/ssyrkin/Sites/mwayit/css/style.css",
+		"/Users/ssyrkin/Sites/mwayit/index_en.html",
+		"/Users/ssyrkin/Sites/mwayit/index.html",
+		"/Users/ssyrkin/Sites/mwayit/js/script.js",
+		"/Users/ssyrkin/Sites/mwayit/index-3.html",
+		"/Users/ssyrkin/Sites/mwayit/index-4.html",
+		"/Users/ssyrkin/Sites/mwayit/index-1.html",
+		"/Users/ssyrkin/Sites/mwayit/index-10.html",
+		"/Users/ssyrkin/Sites/mwayit/index-9.html",
+		"/Users/ssyrkin/Sites/mwayit/index-7.html",
+		"/Users/ssyrkin/Sites/mwayit/index-8.html",
+		"/Users/ssyrkin/Sites/mwayit/page.html",
+		"/Users/ssyrkin/Sites/mwayit/index-6.html",
+		"/Users/ssyrkin/Sites/mwayit/index-5.html",
+		"/Users/ssyrkin/Sites/mwayit/index-2.html",
+		"/Users/ssyrkin/Яндекс.Диск/work/mwayit_some/www/css/style.css",
+		"/Users/ssyrkin/Яндекс.Диск/Public/dz-move-window/move-window.js",
+		"/Users/ssyrkin/Яндекс.Диск/Public/dz-move-window/index.html",
+		"/Users/ssyrkin/Яндекс.Диск/Public/dz-move-window/style.css",
+		"/Users/ssyrkin/Яндекс.Диск/Public/dz-move-calendar/index.html",
+		"/Users/ssyrkin/Яндекс.Диск/Public/dz-move-calendar/date-selector.js",
+		"/Users/ssyrkin/Яндекс.Диск/Public/dz-move-calendar/style.css",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-serp-control/b-serp-control.xsl",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-serp-control/b-serp-control.ie.css",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-serp-control/b-serp-control.css",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-top-companies/b-top-companies.css",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-popular/b-popular.css",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-period/b-period.css",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-popular/_type/b-popular_type_search.css",
+		"/Users/ssyrkin/Sites/rabota-www/pages-desktop/search/search.js",
+		"/Users/ssyrkin/Sites/rabota-www/pages-desktop/settings/settings.raw.xml",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-adv-single/b-adv-single.css",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-popular/b-popular.xsl",
+		"/Users/ssyrkin/Sites/rabota-www/pages-desktop/index/index.raw.xml",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-adv-single/_locate/b-adv-single_locate_serp.css",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-adv-single/b-adv-single.xsl",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-sort/link/b-sort__link.xsl",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-company/b-company.xsl",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-catalog/b-catalog.xsl",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-banner/b-banner.xsl",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-user-menu/list-item/b-user-menu__list-item.xsl",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-user-menu/list-item/b-user-menu__list-item.css",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-user-menu/list-link/b-user-menu__list-link.xsl",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-user-menu/b-user-menu.xsl",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/i-query-params/i-query-params.js",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/l-head/l-head.xml",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/l-head/l-head.css",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/l-page/l-page.xsl",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-address-metro/b-address-metro.xsl",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-sort/b-sort.css",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-adv-single/b-adv-single.js",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-sprite/b-sprite.css",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-sprite/b-sprite.xsl",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-sprite/b-sprite.gif",
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-sprite/b-sprite.ie.css",
+		"/Users/ssyrkin/Sites/rabota-www/pages-desktop/company-info/company-info.xml",
+		"/Users/ssyrkin/Sites/rabota-www/pages-desktop/subscribe/subscribe.xml",
+		"/Users/ssyrkin/Sites/rabota-www/pages-desktop/add/add.raw.xml"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/ssyrkin/Sites/rabota/mx/components",
+			"/Applications/XAMPP/xamppfiles/htdocs/wols",
+			"slides.js",
+			"",
+			"block",
+			"/Users/ssyrkin/Sites/rabota-www/lego/blocks-desktop",
+			"/Users/ssyrkin/Sites/realty-int/pages-desktop",
+			"/Users/ssyrkin/Sites/realty-int/blocks-desktop",
+			"/Users/ssyrkin/Sites/rabota/pages-desktop/filters"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"0",
+			"Отзывы о компании",
+			"/wols",
+			"slideshow__banner",
+			"wols",
+			"properties",
+			"node--page",
+			"/wols",
+			"wrapper",
+			"checkbox",
+			"');",
+			"tips-label",
+			"tooltip",
+			"label",
+			"td",
+			"></",
+			"content_type_page",
+			"label",
+			"in",
+			"content",
+			"div\n                            <h3 class=\"accordion-header\"><a href=\"#\">האם הבניין באמת הולך להיות מודרני?</a></h3>\n                            <div class=\"accordion-content\">Content</div>",
+			"\n                            <h3 class=\"accordion-header\"><a href=\"#\">האם הבניין באמת הולך להיות מודרני?</a></h3>\n                            <div class=\"accordion-content\">Content</div>",
+			"dolist__item",
+			"Ashdod",
+			"sity__text",
+			"<span class=\"city__item\">\n                        <span class=\"sity__text\">ראשי</span>\n                    </span>",
+			"if (event.pageY > maxBottomPos) windowPosY = maxBottomPos - cursorY;\n            if (event.pageX > maxRightPos) windowPosX = maxRightPos - cursorX;",
+			"maxTopPos",
+			"this",
+			"class",
+			"}).",
+			"b-sort\n                    <lego:b-link url=\"#\">грузчик</lego:b-link>, \n\n                    <lego:b-link url=\"#\">логистик</lego:b-link>, \n\n                    <lego:b-link url=\"#\">оператор</lego:b-link>, \n\n                    <lego:b-link url=\"#\">упаковщик</lego:b-link>",
+			"\n                    <lego:b-link url=\"#\">грузчик</lego:b-link>, \n\n                    <lego:b-link url=\"#\">логистик</lego:b-link>, \n\n                    <lego:b-link url=\"#\">оператор</lego:b-link>, \n\n                    <lego:b-link url=\"#\">упаковщик</lego:b-link>",
+			"подписаться ",
+			"', {",
+			">",
+			"*/",
+			" |",
+			"b-link",
+			"mix",
+			")*/",
+			"lego:b-sprite",
+			"b-sprite",
+			"b-logos",
+			"logos",
+			"16-52-30",
+			"12-60-22",
+			"12-56-20",
+			"lego",
+			",",
+			"b-logo-table",
+			"xsl",
+			"mode",
+			"_js",
+			"<img src=\"http://wols.com.ua/wp-content/uploads/baner/prayer.jpg\">",
+			"$page['content']",
+			"css",
+			"invalid",
+			"#main-menu",
+			"Type slider (begin)",
+			"begin",
+			"#header-top",
+			"font-family:",
+			"clearfix",
+			"type: 'page'",
+			"body",
+			"body, html",
+			"')",
+			"3px",
+			"снять",
+			"снять дом",
+			"комнат",
+			"meta",
+			"url: '\\'",
+			"url: '/'",
+			"вариант с небольшим кол-вом районов",
+			"Все регионы",
+			",\n                                        {\n                                            block: 'b-form-checkbox',\n                                            mods: { size: 'm' },\n                                            checkboxAttrs: { id: 'ijs' },\n                                            content: { elem: 'label', content: 'в садоводстве' }\n                                        }",
+			"temp",
+			",\n                                                                            {\n                                                                                block: 'b-link',\n                                                                                url: '#',\n                                                                                content: 'Украина'\n                                                                            }",
+			"));",
+			"МСК",
+			"По дефолту для",
+			";",
+			",\n                                                                                            {\n                                                                                                block: 'b-link',\n                                                                                                mods: { pseudo: 'yes' },\n                                                                                                content: 'Рублевское'\n                                                                                            }",
+			"end",
+			"По",
+			"По дефолту для МО",
+			"tabs",
+			"csscomb",
+			"default_sort_order",
+			"блог",
+			"WebIde10",
+			"\nWebIde10"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"block",
+			"city__text",
+			"maxBottomPos",
+			"b-serp-control",
+			"b-top-companies",
+			"top-companies",
+			"16-50-n",
+			"12-52-30",
+			"12-60-22",
+			"b-logos",
+			".main-menu",
+			".menu",
+			".header",
+			"WebIde40"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true
+}

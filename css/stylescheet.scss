@@ -7,7 +7,9 @@
 // Global style (begin)
 *
 {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 body
@@ -15,6 +17,23 @@ body
     background: url(../img/bg-main.jpg);
 }
 // Global style (end)
+
+// Batton (begin)
+.main-button
+{
+    display: inline-block;
+
+    span
+    {
+    @include main-button;        
+    }
+}
+
+.main-button:hover
+{
+    @include box-shadow(0, 0, 5px, $color-gold);
+}
+// Batton (end)
 
 // Nav bar (begin)
 .navbar
@@ -27,7 +46,9 @@ body
     padding: 0;
     border-top: 4px solid #000;
     border-bottom: 1px solid rgba(88,83,80,0.48);
-    // TODO: добавить тень под меню
+
+    @include box-shadow(0px, 1px, 7px, rgba(0,0,0,0.5));
+ 
     .navbar-inner
     {
         width: $main-width;
@@ -37,14 +58,12 @@ body
         .brand
         {
             padding: 6px 30px;
-            .logo
+            .logo.sprite
             {
-                display: block;
-
                 width: 62px;
                 height: 36px;
 
-                background: url(../img/brand-logo.png) no-repeat;
+                background-position: -278px 0px;
             }
         }
         .welcome
@@ -62,8 +81,6 @@ body
             li
             {
                 position: relative;
-
-                // TODO: сделать с правой стороны тень 1px
                 border-left: 1px solid rgba(0,0,0,0.20);
             }
             
@@ -73,7 +90,6 @@ body
                 {
                     border: none;
                     background: none;
-                    box-shadow: none;
                 }
             }
             
@@ -85,8 +101,8 @@ body
                 left: 0;
                 height: 1px;
 
-                // TODO: сделать градиент и тень
                 background: #e7b136;
+                @include box-shadow(0, 0, 10px, #ffae00);
             }
             a
             {
@@ -148,10 +164,7 @@ body
     border-right: 1px solid #403d3d;
     background: url(../img/bg-content.jpg);
 
-    .span1
-    {
-        margin: auto;
-    }
+    @include inner-shadow(0, 0, 10px, #000);
 }
 
 .row::before,
@@ -160,7 +173,7 @@ body
     @include after(18px);
 
     top: 95px;
-    height: 1000px;
+    height: 770px;
     opacity: 0.6;
     background: url(../img/bg-decor.png) 0 0 no-repeat;
 }
@@ -182,16 +195,73 @@ body
     padding-top: 50px;
 }
 
-.stripe
+// Strip
+.strip
 {
     width: 100%;
     height: 49px;
 
     background: url(../img/bg-stripe.jpg);
+
+    .price
+    {
+        display: inline-block;
+
+        margin-top: 7px;
+        width: 170px;
+
+        font-size: 25px;
+        text-align: right;
+        vertical-align: top;
+
+        color: #fff;        
+
+        .note
+        {
+            font-size: 13px;
+
+            color: $color-gold;
+        }
+    }
+    .number
+    {
+        width: 38px;
+        margin: 9px 0 0 10px;
+        
+        text-align: center;
+        vertical-align: top;
+
+        @include input;
+        @include inner-shadow(0, 3px, 5px, rgba(0,0,0,0.58))
+    }
+    .btn-group
+    {
+        margin-top: 9px;
+        display: inline-block;
+        vertical-align: top;
+
+        .dropdown-toggle
+        {
+            @include border-radius(0, 0, 0, 0);
+        }
+
+        .dropdown-menu
+        {
+            @include border-radius(0, 0, 0, 0);   
+        }
+    }
+    .button
+    {
+        margin-top: 8px;
+        margin-left: 52px;
+    }
 }
 
 .span1
 {
+    margin: auto;
+    padding-bottom: 1em;
+
     .content-header
     {
         @include h1;
@@ -207,58 +277,132 @@ body
         bottom: -2px;
         left: 0;
 
-        //TODO: Заменить на градиент от 454242 к 0
-        background: #454242;
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ1NDI0MiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzQ1NDI0MiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0NTQyNDIiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+        background: -moz-linear-gradient(left,  rgba(69,66,66,0) 0%, rgba(69,66,66,1) 50%, rgba(69,66,66,0) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(69,66,66,0)), color-stop(50%,rgba(69,66,66,1)), color-stop(100%,rgba(69,66,66,0))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(left,  rgba(69,66,66,0) 0%,rgba(69,66,66,1) 50%,rgba(69,66,66,0) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(left,  rgba(69,66,66,0) 0%,rgba(69,66,66,1) 50%,rgba(69,66,66,0) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(left,  rgba(69,66,66,0) 0%,rgba(69,66,66,1) 50%,rgba(69,66,66,0) 100%); /* IE10+ */
+        background: linear-gradient(to right,  rgba(69,66,66,0) 0%,rgba(69,66,66,1) 50%,rgba(69,66,66,0) 100%); /* W3C */
+        // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00454242', endColorstr='#00454242',GradientType=1 ); /* IE6-8 */
     }
     .video
     {
         padding: 15px;
-        //TODO: добавить иннер шадоу
         background: #111111;
+
+        @include inner-shadow(0, 0, 7px, #000);
     }
     .text-header
     {
         @include h2;
 
-        color: #e9b539;
+        color: $color-gold;
     }
     .columns
     {
         font: 0/0 a;
         
+        position: relative;
         .column
         {
-            @include column(50%);
+            @include column(48%, 2%);
             @include text;
-
-            position: relative;
 
             .quote
             {
                 @include quote;
             }
-        }
-        .column:first-child::after
-        {
-            @include after(1px);
-
-            right: 0;
-            top: 0;
-            height: 100%;
-
-            //TODO: Заменить на градиент
-            background: #383535;
+            .maturity
+            {
+                color: $color-gold;
+            }
         }
     }
-    .footer
+    .columns::after
     {
-        .glass
+        @include after(1px);
+
+        left: 315px;
+        top: 0;
+        height: 100%;
+
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ1NDI0MiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzQ1NDI0MiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0NTQyNDIiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+        background: -moz-linear-gradient(top,  rgba(69,66,66,0) 0%, rgba(69,66,66,1) 50%, rgba(69,66,66,0) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(69,66,66,0)), color-stop(50%,rgba(69,66,66,1)), color-stop(100%,rgba(69,66,66,0))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  rgba(69,66,66,0) 0%,rgba(69,66,66,1) 50%,rgba(69,66,66,0) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  rgba(69,66,66,0) 0%,rgba(69,66,66,1) 50%,rgba(69,66,66,0) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  rgba(69,66,66,0) 0%,rgba(69,66,66,1) 50%,rgba(69,66,66,0) 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  rgba(69,66,66,0) 0%,rgba(69,66,66,1) 50%,rgba(69,66,66,0) 100%); /* W3C */
+        // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00454242', endColorstr='#00454242',GradientType=0 ); /* IE6-8 */
+    }
+}
+
+.footer
+{
+    position: relative;
+
+    .glass.sprite
+    {
+        width: 20px;
+        height: 39px;
+        margin: 30px auto;
+    }    
+    .sprite.social
+    {
+        position: absolute;
+        
+        top: 53px;
+        right: 0;
+        height: 40px;
+        width: 195px;  
+        padding-right: 7px;
+
+        background-position: -74px 0;
+        color: #fff;
+
+        font-size: 11px;
+        font-style: normal;
+        line-height: 32px;  
+        text-align: right;
+
+        cursor: pointer;
+    }
+    .content
+    {
+        padding: 1em 2em;
+        border-top: 2px solid #1c1917;
+        .sprite
         {
-            height: 40px;
-        }    
+            display: inline-block;
+            vertical-align: middle;
+
+            width: 49px;
+            height: 28px;
+
+            background-position: -22px 0px;
+        }
+        .text
+        {
+            float: right;
+            font-size: 11px;
+            line-height: 28px;
+            .phone
+            {
+                color: $color-gold;
+            }
+        }
     }
 }
 // Content (end)
+
+// Sprite (begin)
+.sprite
+{
+    display: block;
+    background: url(../img/sprite.png) no-repeat;
+}
+// Sprite (end)
 
 // Product customithation (begin)
 .product
@@ -275,19 +419,62 @@ body
             position: absolute;
             width: 145px;
             height: 275px;
-            //TODO: выпилить цвет фона добавить тенюшку
-            background: red;
+            
+            @include box-shadow(0, 0, 9px, #000000);
+
+            img
+            {
+                width: 100%;
+                height: 100%;
+            }
         }
 
         .info
         {
-            top: 100px;
-            right: 100px;
+            top: 89px;
+            right: 79px;
             position: absolute;
             width: 280px;
             height: 285px;
-            //TODO: выпилить цвет фона
-            background: red;
+            background: url(../img/vine-info.png);
+            text-align: center;
+
+            .date
+            {
+                color: #fff; 
+                margin-top: 25px;
+            }
+
+            .mark
+            {
+                color: $color-gold;
+                font-size: 20px;
+                margin: 12px;
+            }
+
+            .name
+            {
+                color: #fff;
+                font-weight: bold;
+                font-size: 25px;
+            }
+
+            .location
+            {
+                color: #fff;
+                margin-top: 40px;
+            }
+
+            .rate 
+            {
+                color: #fff;
+                margin-top: 5px;
+            }
+
+            .link
+            {
+                font-size: 12px;
+            }
         }
     }
 }
