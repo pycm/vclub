@@ -2,7 +2,7 @@
 $nav-height: 50px;
 
 // layout
-$main-width: 720px;
+$main-width: 742px;
 
 // Text color - gold
 $color-gold: #ecb351;
@@ -108,4 +108,16 @@ $color-gold: #ecb351;
 
 	@include border-radius(2px, 2px, 2px, 2px);
 	@include inner-shadow(0, 2px, 5px, rgba(0,0,0,0.3));
+}
+
+@mixin dark-back{
+	background: #111111;
+	@include inner-shadow(0, 0, 7px, #000);
+}
+
+@mixin transition($prop, $time, $type, $delay){
+
+	-webkit-transition:$prop $time $type $delay;
+	   -moz-transition:$prop $time $type $delay;
+		    transition:$prop $time $type $delay;
 }

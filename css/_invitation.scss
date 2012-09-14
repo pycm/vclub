@@ -1,0 +1,40 @@
+.invitation
+{
+    .header
+    {
+        position: relative;
+        background: url(../img/header-invite.jpg) -2px 4px no-repeat;
+        .title
+        {
+            position: absolute;
+            left: 46px;
+            top: 200px;
+            width: 621px;
+            height: 55px;
+            background: url(../img/header-invite-text.png) 0 0 no-repeat;
+        }
+    }
+    .invite-block
+    {
+        .treatment,
+        .signature
+        {
+            margin: 0;
+            font:
+            {
+                size: 24px;
+                weight: normal;
+            }
+            color: #fff;
+        }
+        .signature
+        {
+            line-height: 40px;
+            text-align: right;
+        }
+        .button
+        {
+            text-align: right;
+        }
+    }
+}

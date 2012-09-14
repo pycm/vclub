@@ -4,16 +4,72 @@
 		"selected_items":
 		[
 			[
+				"ma",
+				"main-button"
+			],
+			[
 				"a",
 				"after"
 			],
 			[
-				"fon",
+				"ba",
+				"background"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"font",
 				"font-size"
 			],
 			[
 				"co",
-				"column"
+				"color-gold"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"colo",
+				"color-gold"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"fon",
+				"font-size"
 			],
 			[
 				"he",
@@ -52,10 +108,6 @@
 				"Tooltip"
 			],
 			[
-				"in",
-				"input	Tag"
-			],
-			[
 				"o",
 				"offsetX"
 			],
@@ -90,10 +142,6 @@
 			[
 				"window",
 				"windowPosY"
-			],
-			[
-				"ma",
-				"maxTopPos"
 			],
 			[
 				"pag",
@@ -200,10 +248,6 @@
 				"display	display: inline"
 			],
 			[
-				"ba",
-				"background	background-position: position"
-			],
-			[
 				"pa",
 				"padding	padding: all"
 			],
@@ -235,6 +279,54 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "invitation.html",
+			"settings":
+			{
+				"buffer_size": 2052,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/_invitation.scss",
+			"settings":
+			{
+				"buffer_size": 789,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/_product.scss",
+			"settings":
+			{
+				"buffer_size": 1485,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/variabless.scss",
+			"settings":
+			{
+				"buffer_size": 3757,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/_main.scss",
+			"settings":
+			{
+				"buffer_size": 10381,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "product.html",
+			"settings":
+			{
+				"buffer_size": 3691,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -308,6 +400,11 @@
 	},
 	"file_history":
 	[
+		"/Users/ssyrkin/Dropbox/Public/vclub/product.html",
+		"/Users/ssyrkin/Dropbox/Public/vclub/css/_main.scss",
+		"/Users/ssyrkin/Dropbox/Public/vclub/css/stylescheet.scss",
+		"/Users/ssyrkin/Dropbox/Public/vclub/css/variabless.scss",
+		"/Users/ssyrkin/Dropbox/Public/vclub/vclub.sublime-workspace",
 		"/Users/ssyrkin/Dropbox/Public/project/css/stylescheet.scss",
 		"/Users/ssyrkin/Sites/vclub/project/css/variabless.scss",
 		"/Users/ssyrkin/Sites/vclub/project/css/stylescheet.css",
@@ -430,12 +527,7 @@
 		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-sort/b-sort.css",
 		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-adv-single/b-adv-single.js",
 		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-sprite/b-sprite.css",
-		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-sprite/b-sprite.xsl",
-		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-sprite/b-sprite.gif",
-		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-sprite/b-sprite.ie.css",
-		"/Users/ssyrkin/Sites/rabota-www/pages-desktop/company-info/company-info.xml",
-		"/Users/ssyrkin/Sites/rabota-www/pages-desktop/subscribe/subscribe.xml",
-		"/Users/ssyrkin/Sites/rabota-www/pages-desktop/add/add.raw.xml"
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-sprite/b-sprite.xsl"
 	],
 	"find":
 	{
@@ -462,6 +554,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"    -",
+			")\n",
+			"2012",
+			"TODO",
+			"#E9B539",
+			"ecb351",
+			"#ecb351",
+			"begin",
 			"0",
 			"Отзывы о компании",
 			"/wols",
@@ -587,8 +687,196 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "invitation.html",
+					"settings":
+					{
+						"buffer_size": 2052,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								435,
+								435
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/_invitation.scss",
+					"settings":
+					{
+						"buffer_size": 789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								231
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/_product.scss",
+					"settings":
+					{
+						"buffer_size": 1485,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								102,
+								102
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/variabless.scss",
+					"settings":
+					{
+						"buffer_size": 3757,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1710,
+								1710
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 832.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/_main.scss",
+					"settings":
+					{
+						"buffer_size": 10381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9231,
+								9231
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4317.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "product.html",
+					"settings":
+					{
+						"buffer_size": 3691,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2249,
+								2323
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
