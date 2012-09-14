@@ -83,6 +83,7 @@ $color-gold: #ecb351;
 	height: 30px;
     line-height: 30px;
     font-size: 21px;
+    @include inner-shadow(0, 3px, 5px, rgba(0,0,0,0.58))
 }
 
 @mixin main-button{

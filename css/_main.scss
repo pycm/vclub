@@ -19,13 +19,35 @@ body
 
     span
     {
-    @include main-button;        
+        @include main-button;        
     }
 }
 
 .main-button:hover
 {
     @include box-shadow(0, 0, 5px, $color-gold);
+}
+
+.main-button_add-photo
+{
+    span
+    {
+        position: relative;
+
+        padding-left: 65px;
+        padding-right: 15px;
+    }
+    .sprite
+    {
+        position: absolute;
+        left: 14px;
+        top: 6px;
+        width: 38px;
+        height: 19px;
+        padding-right: 14px;
+        border-right: 1px solid #745b1c;
+        background-position: -188px -42px;
+    }
 }
 // Button (end)
 
@@ -90,6 +112,25 @@ body
     cursor: default;
 }
 // Simple button (end)
+
+// Form elements (begin)
+.form-text
+{
+    @include input;            
+}
+
+body .form-radio
+{
+    margin-top: 0;
+    margin-right: 4px;
+}
+
+.form-radio__label_inline
+{
+    display: inline;
+    margin-right: 40px;
+}
+// Form elements (end)
 
 // Nav bar (begin)
 .navbar
@@ -289,7 +330,6 @@ body
         vertical-align: top;
 
         @include input;
-        @include inner-shadow(0, 3px, 5px, rgba(0,0,0,0.58))
     }
     .btn-group
     {

@@ -53,6 +53,20 @@ body {
   -moz-box-shadow: 0 0 5px #ecb351;
   box-shadow: 0 0 5px #ecb351; }
 
+.main-button_add-photo span {
+  position: relative;
+  padding-left: 65px;
+  padding-right: 15px; }
+.main-button_add-photo .sprite {
+  position: absolute;
+  left: 14px;
+  top: 6px;
+  width: 38px;
+  height: 19px;
+  padding-right: 14px;
+  border-right: 1px solid #745b1c;
+  background-position: -188px -42px; }
+
 .button-small {
   display: inline-block;
   height: 21px;
@@ -124,6 +138,24 @@ body {
 .button-simple_disabled {
   color: #302D27;
   cursor: default; }
+
+.form-text {
+  background-color: #FEF7E3;
+  border: none;
+  height: 30px;
+  line-height: 30px;
+  font-size: 21px;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.58);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.58); }
+
+body .form-radio {
+  margin-top: 0;
+  margin-right: 4px; }
+
+.form-radio__label_inline {
+  display: inline;
+  margin-right: 40px; }
 
 .navbar {
   z-index: 100;
@@ -639,3 +671,47 @@ body {
 .account .module_libr .module-header,
 .account .module_libr .module-text {
   margin-left: 208px; }
+
+.consierge .header {
+  height: 110px;
+  background: url(../img/header-consierge.jpg) 0 0 no-repeat; }
+.consierge .text-header {
+  margin: 28px 0 16px 0; }
+  .consierge .text-header .sprite {
+    width: 266px;
+    height: 20px;
+    background-position: 0px -65px; }
+.consierge .chapter-header {
+  font-size: 19px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0; }
+.consierge .chapter {
+  padding: 25px 30px;
+  background: rgba(17, 17, 17, 0.6);
+  border: 1px solid #2C2924; }
+  .consierge .chapter .question {
+    margin-top: 30px;
+    margin-bottom: 0;
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #ecb351; }
+  .consierge .chapter p {
+    margin: 10px 0; }
+  .consierge .chapter .ref {
+    margin-top: 0; }
+  .consierge .chapter .radio-list {
+    margin-left: 25px; }
+  .consierge .chapter .submit {
+    margin-top: 40px; }
+  .consierge .chapter .chapter-text {
+    margin: 0;
+    color: #c8b9a6; }
+    .consierge .chapter .chapter-text .phone {
+      color: #ecb351; }
+  .consierge .chapter textarea {
+    width: 320px;
+    height: 90px; }
+  .consierge .chapter .form-text {
+    width: 320px; }
