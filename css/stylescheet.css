@@ -715,3 +715,36 @@ body .form-radio {
     height: 90px; }
   .consierge .chapter .form-text {
     width: 320px; }
+
+.popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 1000; }
+  .popup .wrapper {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    padding: 20px;
+    background: rgba(103, 103, 103, 0.6);
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; }
+  .popup .content {
+    max-width: 665px;
+    min-width: 100px;
+    background: #000; }
