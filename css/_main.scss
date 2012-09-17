@@ -30,6 +30,9 @@ body
 
 .main-button_add-photo
 {
+    z-index: 0;
+    position: relative;
+
     span
     {
         position: relative;
@@ -47,6 +50,22 @@ body
         padding-right: 14px;
         border-right: 1px solid #745b1c;
         background-position: -188px -42px;
+    }
+
+    .input-file
+    {
+        position: absolute;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+
+        z-index: 1;
+
+        opacity: 0;
     }
 }
 // Button (end)

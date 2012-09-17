@@ -4,32 +4,52 @@
 		"selected_items":
 		[
 			[
-				"ma",
-				"main-button"
-			],
-			[
-				"a",
-				"after"
-			],
-			[
 				"ba",
 				"background"
 			],
 			[
-				"bor",
-				"border-radius"
-			],
-			[
-				"bo",
-				"border-radius"
-			],
-			[
 				"mar",
-				"margin-top"
+				"margin-bottom"
+			],
+			[
+				"popup",
+				"popup-text"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"ma",
+				"margin"
 			],
 			[
 				"in",
 				"include"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"but",
+				"button-s"
 			],
 			[
 				"line",
@@ -50,10 +70,6 @@
 			[
 				"box",
 				"box-shadow"
-			],
-			[
-				"colo",
-				"color-gold"
 			],
 			[
 				"text",
@@ -280,34 +296,18 @@
 	"buffers":
 	[
 		{
-			"file": "invitation.html",
+			"file": "firstview.html",
 			"settings":
 			{
-				"buffer_size": 2052,
+				"buffer_size": 4792,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "css/_invitation.scss",
+			"file": "css/_popups.scss",
 			"settings":
 			{
-				"buffer_size": 789,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/_product.scss",
-			"settings":
-			{
-				"buffer_size": 1485,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/variabless.scss",
-			"settings":
-			{
-				"buffer_size": 3757,
+				"buffer_size": 1670,
 				"line_ending": "Unix"
 			}
 		},
@@ -315,15 +315,23 @@
 			"file": "css/_main.scss",
 			"settings":
 			{
-				"buffer_size": 10381,
+				"buffer_size": 13046,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "product.html",
+			"file": "css/variabless.scss",
 			"settings":
 			{
-				"buffer_size": 3691,
+				"buffer_size": 4085,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/stylescheet.scss",
+			"settings":
+			{
+				"buffer_size": 388,
 				"line_ending": "Unix"
 			}
 		}
@@ -400,9 +408,20 @@
 	},
 	"file_history":
 	[
+		"/Users/ssyrkin/Dropbox/Public/vclub/css/_popups.scss",
+		"/Users/ssyrkin/Dropbox/Public/vclub/consierge.html",
 		"/Users/ssyrkin/Dropbox/Public/vclub/product.html",
-		"/Users/ssyrkin/Dropbox/Public/vclub/css/_main.scss",
+		"/Users/ssyrkin/Dropbox/Public/vclub/css/_consierge.scss",
 		"/Users/ssyrkin/Dropbox/Public/vclub/css/stylescheet.scss",
+		"/Users/ssyrkin/Dropbox/Public/vclub/vclub.sublime-project",
+		"/Users/ssyrkin/Dropbox/Public/vclub/css/_account.scss",
+		"/Users/ssyrkin/Dropbox/Public/vclub/account.html",
+		"/Users/ssyrkin/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/ssyrkin/Dropbox/Public/vclub/invitation.html",
+		"/Users/ssyrkin/Dropbox/Public/vclub/css/_product.scss",
+		"/Users/ssyrkin/Dropbox/Public/vclub/css/_main.scss",
+		"/Users/ssyrkin/Dropbox/Public/vclub/css/stylescheet.css",
+		"/Users/ssyrkin/Dropbox/Public/vclub/css/_invitation.scss",
 		"/Users/ssyrkin/Dropbox/Public/vclub/css/variabless.scss",
 		"/Users/ssyrkin/Dropbox/Public/vclub/vclub.sublime-workspace",
 		"/Users/ssyrkin/Dropbox/Public/project/css/stylescheet.scss",
@@ -516,18 +535,7 @@
 		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-catalog/b-catalog.xsl",
 		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-banner/b-banner.xsl",
 		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-user-menu/list-item/b-user-menu__list-item.xsl",
-		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-user-menu/list-item/b-user-menu__list-item.css",
-		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-user-menu/list-link/b-user-menu__list-link.xsl",
-		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-user-menu/b-user-menu.xsl",
-		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/i-query-params/i-query-params.js",
-		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/l-head/l-head.xml",
-		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/l-head/l-head.css",
-		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/l-page/l-page.xsl",
-		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-address-metro/b-address-metro.xsl",
-		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-sort/b-sort.css",
-		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-adv-single/b-adv-single.js",
-		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-sprite/b-sprite.css",
-		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-sprite/b-sprite.xsl"
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-user-menu/list-item/b-user-menu__list-item.css"
 	],
 	"find":
 	{
@@ -554,6 +562,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".wrapper",
+			"row",
+			";\n",
+			"module-about",
+			"module-stat",
+			"\"></",
+			";\n",
+			"630",
+			"h3",
 			"    -",
 			")\n",
 			"2012",
@@ -663,6 +680,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"module-text",
 			"block",
 			"city__text",
 			"maxBottomPos",
@@ -692,18 +710,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "invitation.html",
+					"file": "firstview.html",
 					"settings":
 					{
-						"buffer_size": 2052,
+						"buffer_size": 4792,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								435,
-								435
+								4425,
+								4425
 							]
 						],
 						"settings":
@@ -716,30 +734,29 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1244.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "css/_invitation.scss",
+					"file": "css/_popups.scss",
 					"settings":
 					{
-						"buffer_size": 789,
+						"buffer_size": 1670,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								231,
-								231
+								1045,
+								1045
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
@@ -748,30 +765,29 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 363.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "css/_product.scss",
+					"file": "css/_main.scss",
 					"settings":
 					{
-						"buffer_size": 1485,
+						"buffer_size": 13046,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								102,
-								102
+								531,
+								531
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
@@ -780,7 +796,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1438.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -790,15 +806,15 @@
 					"file": "css/variabless.scss",
 					"settings":
 					{
-						"buffer_size": 3757,
+						"buffer_size": 4085,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1710,
-								1710
+								1884,
+								1884
 							]
 						],
 						"settings":
@@ -810,25 +826,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 832.0,
+						"translation.y": 252.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "css/_main.scss",
+					"file": "css/stylescheet.scss",
 					"settings":
 					{
-						"buffer_size": 10381,
+						"buffer_size": 388,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9231,
-								9231
+								388,
+								388
 							]
 						],
 						"settings":
@@ -836,40 +852,7 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4317.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "product.html",
-					"settings":
-					{
-						"buffer_size": 3691,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2249,
-								2323
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
