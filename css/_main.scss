@@ -17,6 +17,8 @@ body
 {
     display: inline-block;
 
+    text-transform: uppercase;
+
     span
     {
         @include main-button;        

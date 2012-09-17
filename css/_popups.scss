@@ -1,18 +1,21 @@
 .popup
 {
-    position: fixed;
-
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
-    width: 100%;
-    height: 100%;
-
-    background: rgba(0,0,0,0.75);
-
     z-index: 1000;
+    
+    .paranja
+    {
+        position: fixed;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        width: 100%;
+        height: 100%;
+
+        background: rgba(0,0,0,0.75);
+    }
 
     .wrapper
     {
@@ -53,7 +56,7 @@
                 width: 90px;
                 height: 55px;
 
-                background-position: -272px -39px;
+                background-position: -299px -39px;
             }
         }
         .popup-logo:after
@@ -91,6 +94,17 @@
             color: #fff;
             margin-bottom: 20px;
         }
+        .popup_text_inline
+        {
+            input
+            {
+                margin-right: 10px;
+            }
+            label
+            {
+                display: inline-block;
+            }
+        }
         .popup-text_ref
         {
             margin-bottom: 25px;
@@ -100,9 +114,121 @@
             margin-top: 5px;
             font-size: 14px;
         }
+        label
+        {
+            .form-text_city
+            {
+                width: 130px;
+            }
+            .form-text_state
+            {
+                width: 110px;
+            }
+            .form-text_zip
+            {
+                width: 100px;
+            }
+            .form-text_country
+            {
+                width: 140px;
+            }
+            .form-text_exp1
+            {
+                width: 38px;
+                margin-right: 0;
+            }
+            .form-text_exp2
+            {
+                width: 30px;
+            }
+            .form-text_seq
+            {
+                width: 77px;
+            }
+        }
         .main-button span
         {
             padding: 0 10px;
+        }
+    }
+}
+.popup_type_delivery
+{
+    .content
+    {
+        .popup-header
+        {
+            margin-bottom: 20px;
+
+            .sprite
+            {
+                width: 300px;
+                height: 47px;
+
+                background-position: 0 -91px;
+            }
+        }
+        .form-text
+        {
+            width: 370px;
+        }
+    }
+}
+.popup_type_billing
+{
+    .content
+    {
+        .popup-header
+        {
+            margin-bottom: 20px;
+
+            .sprite
+            {
+                width: 300px;
+                height: 47px;
+
+                background-position: 0 -145px;
+            }
+        }
+        .form-text
+        {
+            width: 370px;
+        }
+    }
+    .save-card
+    {
+        color: $color-gold;
+
+        position: relative;
+
+        input
+        {
+            position: absolute;
+            margin: 0;
+            top: 5px;
+            left: -20px;
+        }
+    }
+}
+.popup_type_thankyou
+{
+    .content
+    {
+        .popup-header
+        {
+            margin-bottom: 20px;
+
+            .sprite
+            {
+                width: 332px;
+                height: 21px;
+
+                background-position: 0 -200px;
+            }
+        }
+        .popup-text
+        {
+            margin-bottom: 10px;
         }
     }
 }
