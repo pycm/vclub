@@ -404,6 +404,33 @@ body .form-radio
     }
 }
 
+.btn-group
+{
+    margin-top: 7px;
+    display: inline-block;
+    vertical-align: top;            
+    .btn,
+    .btn:hover
+    {
+        background: none;
+        @include input;
+
+        line-height: 25px;
+        font-size: 14px;
+        padding: 4px 8px;
+        .caret
+        {
+            margin-top: 10px;
+        }
+    }
+    .dropdown-toggle,
+    .dropdown-menu,
+    .btn:first-child
+    {
+        @include border-radius(0, 0, 0, 0);
+    }
+}
+
 .footer
 {
     position: relative;

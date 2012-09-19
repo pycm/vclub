@@ -1,9 +1,9 @@
 .popup
 {
-    z-index: 1000;
-    
     .paranja
     {
+        z-index: 1000;
+
         position: fixed;
 
         top: 0;
@@ -19,6 +19,8 @@
 
     .wrapper
     {
+        z-index: 1001;
+
     	position: absolute;
 
         width: 670px;
@@ -209,6 +211,21 @@
             left: -20px;
         }
     }
+    .popup-card
+    {
+        position: absolute;
+
+        left: 20px;
+        top: 135px;
+
+        .sprite
+        {
+            width: 111px;
+            height: 47px;
+            
+            background-position: -342px -97px;
+        }
+    }
 }
 .popup_type_thankyou
 {
@@ -229,6 +246,99 @@
         .popup-text
         {
             margin-bottom: 10px;
+        }
+    }
+}
+.popup_type_locate
+{
+    .content
+    {
+        .popup-header
+        {
+            margin-bottom: 20px;
+
+            .sprite
+            {
+                width: 300px;
+                height: 47px;
+
+                background-position: 0 -91px;
+            }
+        }
+        .popup-text
+        {
+            margin-top: 44px;
+        }
+        .main-button_add-photo span
+        {
+            padding-left: 65px;
+            padding-right: 15px;
+        }
+        .btn-group
+        {
+            margin-top: 0;
+        }
+        .main-button_add-photo .sprite 
+        {
+            position: absolute;
+            left: 11px;
+            top: 5px;
+            width: 38px;
+            height: 25px;
+            padding-right: 14px;
+            border-right: 1px solid #745B1C;
+            background-position: -211px -39px;
+        }
+    }
+}
+
+.popup_type_billing2
+{
+    .content
+    {
+        .popup-header
+        {
+            margin-bottom: 20px;
+
+            .sprite
+            {
+                width: 300px;
+                height: 47px;
+
+                background-position: 0 -91px;
+            }
+        }
+
+        .popup-header2
+        {
+            margin-top: 40px;
+            margin-bottom: 20px;
+
+            .sprite
+            {
+                width: 300px;
+                height: 47px;
+
+                background-position: 0 -145px;
+            }
+        }
+
+        .btn-group
+        {
+            .btn
+            {
+                width: 300px;
+                text-align: left;
+
+                .caret 
+                {
+                    float: right;
+                }
+            }
+            .dropdown-menu
+            {
+                width: 300px;
+            }
         }
     }
 }
