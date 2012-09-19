@@ -4,20 +4,24 @@
 		"selected_items":
 		[
 			[
-				"ba",
-				"background"
+				"padd",
+				"padding-bottom"
 			],
 			[
 				"mar",
 				"margin-bottom"
 			],
 			[
-				"popup",
-				"popup-text"
+				"pop",
+				"popup"
 			],
 			[
-				"padd",
-				"padding-right"
+				"ba",
+				"background"
+			],
+			[
+				"popup",
+				"popup-text"
 			],
 			[
 				"a",
@@ -295,46 +299,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "firstview.html",
-			"settings":
-			{
-				"buffer_size": 4792,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/_popups.scss",
-			"settings":
-			{
-				"buffer_size": 1670,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/_main.scss",
-			"settings":
-			{
-				"buffer_size": 13046,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/variabless.scss",
-			"settings":
-			{
-				"buffer_size": 4085,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/stylescheet.scss",
-			"settings":
-			{
-				"buffer_size": 388,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -408,21 +372,25 @@
 	},
 	"file_history":
 	[
+		"/Users/ssyrkin/Dropbox/Public/vclub/css/_main.scss",
+		"/Users/ssyrkin/Dropbox/Public/vclub/css/variabless.scss",
+		"/Users/ssyrkin/Dropbox/Public/vclub/css/_product.scss",
 		"/Users/ssyrkin/Dropbox/Public/vclub/css/_popups.scss",
+		"/Users/ssyrkin/Dropbox/Public/vclub/thankyou.html",
+		"/Users/ssyrkin/Dropbox/Public/vclub/billing.html",
+		"/Users/ssyrkin/Dropbox/Public/vclub/delivery.html",
+		"/Users/ssyrkin/Dropbox/Public/vclub/firstview.html",
+		"/Users/ssyrkin/Dropbox/Public/vclub/invitation.html",
 		"/Users/ssyrkin/Dropbox/Public/vclub/consierge.html",
+		"/Users/ssyrkin/Dropbox/Public/vclub/css/stylescheet.scss",
+		"/Users/ssyrkin/Dropbox/Public/vclub/account.html",
+		"/Users/ssyrkin/Dropbox/Public/vclub/css/_account.scss",
 		"/Users/ssyrkin/Dropbox/Public/vclub/product.html",
 		"/Users/ssyrkin/Dropbox/Public/vclub/css/_consierge.scss",
-		"/Users/ssyrkin/Dropbox/Public/vclub/css/stylescheet.scss",
 		"/Users/ssyrkin/Dropbox/Public/vclub/vclub.sublime-project",
-		"/Users/ssyrkin/Dropbox/Public/vclub/css/_account.scss",
-		"/Users/ssyrkin/Dropbox/Public/vclub/account.html",
 		"/Users/ssyrkin/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/Users/ssyrkin/Dropbox/Public/vclub/invitation.html",
-		"/Users/ssyrkin/Dropbox/Public/vclub/css/_product.scss",
-		"/Users/ssyrkin/Dropbox/Public/vclub/css/_main.scss",
 		"/Users/ssyrkin/Dropbox/Public/vclub/css/stylescheet.css",
 		"/Users/ssyrkin/Dropbox/Public/vclub/css/_invitation.scss",
-		"/Users/ssyrkin/Dropbox/Public/vclub/css/variabless.scss",
 		"/Users/ssyrkin/Dropbox/Public/vclub/vclub.sublime-workspace",
 		"/Users/ssyrkin/Dropbox/Public/project/css/stylescheet.scss",
 		"/Users/ssyrkin/Sites/vclub/project/css/variabless.scss",
@@ -531,11 +499,7 @@
 		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-adv-single/_locate/b-adv-single_locate_serp.css",
 		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-adv-single/b-adv-single.xsl",
 		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-sort/link/b-sort__link.xsl",
-		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-company/b-company.xsl",
-		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-catalog/b-catalog.xsl",
-		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-banner/b-banner.xsl",
-		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-user-menu/list-item/b-user-menu__list-item.xsl",
-		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-user-menu/list-item/b-user-menu__list-item.css"
+		"/Users/ssyrkin/Sites/rabota-www/blocks-desktop/b-company/b-company.xsl"
 	],
 	"find":
 	{
@@ -562,6 +526,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"                    ",
 			".wrapper",
 			"row",
 			";\n",
@@ -705,161 +670,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "firstview.html",
-					"settings":
-					{
-						"buffer_size": 4792,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4425,
-								4425
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1244.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/_popups.scss",
-					"settings":
-					{
-						"buffer_size": 1670,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1045,
-								1045
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 363.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "css/_main.scss",
-					"settings":
-					{
-						"buffer_size": 13046,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								531,
-								531
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1438.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "css/variabless.scss",
-					"settings":
-					{
-						"buffer_size": 4085,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1884,
-								1884
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 252.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "css/stylescheet.scss",
-					"settings":
-					{
-						"buffer_size": 388,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								388,
-								388
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
