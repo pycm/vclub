@@ -5,6 +5,7 @@
         position: relative;
         background: url(../img/header-product.jpg) 0 4px no-repeat;
 
+        @include inner-shadow(0, -8px, 1px, rgba(0,0,0,0.35));
         .cert
         {
             top: 92px;

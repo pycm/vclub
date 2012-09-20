@@ -446,7 +446,10 @@ body .form-radio {
 
 .product .header {
   position: relative;
-  background: url(../img/header-product.jpg) 0 4px no-repeat; }
+  background: url(../img/header-product.jpg) 0 4px no-repeat;
+  -webkit-box-shadow: inset 0 -8px 1px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: inset 0 -8px 1px rgba(0, 0, 0, 0.35);
+  box-shadow: inset 0 -8px 1px rgba(0, 0, 0, 0.35); }
   .product .header .cert {
     top: 92px;
     left: 133px;
