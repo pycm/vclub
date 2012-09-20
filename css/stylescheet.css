@@ -187,9 +187,10 @@ body .form-radio {
     width: 742px;
     margin: auto;
     text-align: right;
-    padding-right: 0; }
+    padding: 0; }
     .navbar .navbar-inner .brand {
-      padding: 3px 30px; }
+      padding: 3px 30px;
+      margin-left: 0; }
       .navbar .navbar-inner .brand .logo.sprite {
         width: 62px;
         height: 36px;
@@ -222,7 +223,7 @@ body .form-radio {
         -moz-box-shadow: 0 0 6px #ffae00;
         box-shadow: 0 0 6px #ffae00; }
       .navbar .navbar-inner .nav a {
-        padding: 9px 22px 10px; }
+        padding: 9px 22px 13px; }
         .navbar .navbar-inner .nav a i {
           display: block;
           height: 23px;
@@ -247,14 +248,15 @@ body .form-radio {
 
 .row {
   position: relative;
-  margin: auto;
+  margin: 0 auto;
   width: 742px;
   border-left: 1px solid #403d3d;
   border-right: 1px solid #403d3d;
   background: url(../img/bg-content.jpg);
   -webkit-box-shadow: inset 0 0 10px black;
   -moz-box-shadow: inset 0 0 10px black;
-  box-shadow: inset 0 0 10px black; }
+  box-shadow: inset 0 0 10px black;
+  padding-bottom: 20px; }
 
 .row::before,
 .row::after {
@@ -273,6 +275,10 @@ body .form-radio {
 .row::after {
   right: -35px; }
 
+@media (max-width: 960px) {
+  .row::before,
+  .row::after {
+    content: none; } }
 .header {
   width: 100%;
   height: 400px;
@@ -280,7 +286,7 @@ body .form-radio {
 
 .span1 {
   width: 650px;
-  margin: auto; }
+  margin: 0 46px 30px; }
   .span1 .content-header {
     line-height: 41px;
     margin: 18px 0;
@@ -409,15 +415,13 @@ body .form-radio {
     border-bottom-right-radius: 0; }
 
 .footer {
-  position: relative; }
+  position: relative;
+  width: 742px; }
   .footer .glass .sprite {
     width: 20px;
     height: 39px;
-    margin: 30px auto; }
+    display: inline-block; }
   .footer .social .sprite {
-    position: absolute;
-    top: 52px;
-    right: 0;
     height: 40px;
     width: 195px;
     padding-right: 7px;
@@ -428,20 +432,32 @@ body .form-radio {
     line-height: 32px;
     text-align: right;
     cursor: pointer; }
+  .footer .logo .sprite {
+    margin-top: 7px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 49px;
+    height: 28px;
+    background-position: -22px 0px; }
   .footer .content {
-    padding: 0 41px;
-    border-top: 2px solid #1c1917; }
-    .footer .content .sprite {
-      margin-top: 7px;
+    padding-bottom: 30px; }
+    .footer .content .glass {
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 1px solid #000; }
+    .footer .content .social {
+      position: absolute;
+      margin-top: -17px;
+      right: 0; }
+    .footer .content .logo {
       display: inline-block;
-      vertical-align: middle;
-      width: 49px;
-      height: 28px;
-      background-position: -22px 0px; }
+      margin-left: 52px; }
     .footer .content .text {
+      margin: 8px 52px 0 0;
       float: right;
       font-size: 11px;
-      line-height: 28px; }
+      line-height: 28px;
+      color: #96928b; }
       .footer .content .text .phone {
         color: #ecb351; }
 
@@ -539,8 +555,6 @@ body .form-radio {
     margin-left: 81px; }
 .product .text-header {
   line-height: 28px; }
-.product .footer .content .sprite {
-  margin-bottom: 50px; }
 .product .footer .content .text {
   margin-top: 30px; }
 

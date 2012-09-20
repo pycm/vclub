@@ -172,10 +172,11 @@ body .form-radio
         width: $main-width;
         margin: auto;
         text-align: right;
-        padding-right: 0;
+        padding: 0;
         .brand
         {
             padding: 3px 30px;
+            margin-left: 0;
             .logo.sprite
             {
                 width: 62px;
@@ -225,7 +226,7 @@ body .form-radio
             }
             a
             {
-                padding: 9px 22px 10px;
+                padding: 9px 22px 13px;
 
                 i
                 {
@@ -277,13 +278,14 @@ body .form-radio
 .row
 {
     position: relative;
-    margin: auto;
+    margin: 0 auto;
     width: $main-width;
     border-left: 1px solid #403d3d;
     border-right: 1px solid #403d3d;
     background: url(../img/bg-content.jpg);
 
     @include inner-shadow(0, 0, 10px, #000);
+    padding-bottom: 20px;
 }
 
 .row::before,
@@ -307,6 +309,14 @@ body .form-radio
     right: -35px;
 }
 
+@media (max-width: 960px) {
+    .row::before,
+    .row::after
+    {
+        content: none;
+    }
+}
+
 .header
 {
     width: 100%;
@@ -317,7 +327,7 @@ body .form-radio
 .span1
 {
     width: 650px;
-    margin: auto;
+    margin: 0 46px 30px;
 
     .content-header
     {
@@ -445,19 +455,17 @@ body .form-radio
 .footer
 {
     position: relative;
+    width: 742px;
 
     .glass .sprite
     {
         width: 20px;
         height: 39px;
-        margin: 30px auto;
+
+        display: inline-block;
     }    
     .social .sprite
     {
-        position: absolute;
-        
-        top: 52px;
-        right: 0;
         height: 40px;
         width: 195px;  
         padding-right: 7px;
@@ -472,26 +480,47 @@ body .form-radio
 
         cursor: pointer;
     }
+    .logo .sprite
+    {
+        margin-top: 7px;
+        display: inline-block;
+        vertical-align: middle;
+
+        width: 49px;
+        height: 28px;
+
+        background-position: -22px 0px;
+    }
     .content
     {
-        padding: 0 41px;
-        border-top: 2px solid #1c1917;
-        .sprite
+        padding-bottom: 30px;
+
+        .glass
         {
-            margin-top: 7px;
+            text-align: center;
+            padding: 20px 0;
+
+            border-bottom: 1px solid #000;
+        }
+        .social
+        {
+            position: absolute;
+            
+            margin-top: -17px;
+            right: 0;
+        }
+        .logo
+        {
             display: inline-block;
-            vertical-align: middle;
-
-            width: 49px;
-            height: 28px;
-
-            background-position: -22px 0px;
+            margin-left: 52px;
         }
         .text
         {
+            margin: 8px 52px 0 0;
             float: right;
             font-size: 11px;
             line-height: 28px;
+            color: #96928b;
             .phone
             {
                 color: $color-gold;
