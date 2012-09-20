@@ -221,7 +221,7 @@ body .form-radio
                 height: 1px;
 
                 background: #e7b136;
-                @include box-shadow(0, 0, 10px, #ffae00);
+                @include box-shadow(0, 0, 6px, #ffae00);
             }
             a
             {
@@ -421,6 +421,10 @@ body .form-radio
         .caret
         {
             margin-top: 10px;
+            
+            border-top: 6px solid black;
+            border-right: 6px solid transparent;
+            border-left: 6px solid transparent;
         }
     }
     .dropdown-toggle,
@@ -463,10 +467,11 @@ body .form-radio
     }
     .content
     {
-        padding: 1.5em 41px;
+        padding: 0 41px;
         border-top: 2px solid #1c1917;
         .sprite
         {
+            margin-top: 7px;
             display: inline-block;
             vertical-align: middle;
 

@@ -218,9 +218,9 @@ body .form-radio {
         left: 0;
         height: 1px;
         background: #e7b136;
-        -webkit-box-shadow: 0 0 10px #ffae00;
-        -moz-box-shadow: 0 0 10px #ffae00;
-        box-shadow: 0 0 10px #ffae00; }
+        -webkit-box-shadow: 0 0 6px #ffae00;
+        -moz-box-shadow: 0 0 6px #ffae00;
+        box-shadow: 0 0 6px #ffae00; }
       .navbar .navbar-inner .nav a {
         padding: 9px 22px 10px; }
         .navbar .navbar-inner .nav a i {
@@ -383,7 +383,10 @@ body .form-radio {
     padding: 4px 8px; }
     .btn-group .btn .caret,
     .btn-group .btn:hover .caret {
-      margin-top: 10px; }
+      margin-top: 10px;
+      border-top: 6px solid black;
+      border-right: 6px solid transparent;
+      border-left: 6px solid transparent; }
   .btn-group .dropdown-toggle,
   .btn-group .dropdown-menu,
   .btn-group .btn:first-child {
@@ -421,9 +424,10 @@ body .form-radio {
     text-align: right;
     cursor: pointer; }
   .footer .content {
-    padding: 1.5em 41px;
+    padding: 0 41px;
     border-top: 2px solid #1c1917; }
     .footer .content .sprite {
+      margin-top: 7px;
       display: inline-block;
       vertical-align: middle;
       width: 49px;
@@ -526,6 +530,10 @@ body .form-radio {
     margin-left: 81px; }
 .product .text-header {
   line-height: 28px; }
+.product .footer .content .sprite {
+  margin-bottom: 50px; }
+.product .footer .content .text {
+  margin-top: 30px; }
 
 .invitation .header {
   position: relative;
