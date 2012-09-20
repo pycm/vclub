@@ -1,0 +1,175 @@
+@media (max-width: 767px) {
+	//Variables
+	$phone-width: 100%;
+	body
+	{
+		padding: 0;
+	}
+
+	//Global
+	.desctop
+	{
+		display: none;
+	}
+	.row
+	{
+		width: $phone-width;
+		background: none;
+		box-shadow: none;
+		padding-bottom: 60px;
+	}
+	.welcome
+	{
+		display: none;
+	}
+
+	.navbar
+	{
+		width: $phone-width;
+		position: absolute;
+		top: 0;
+		left: 0;
+		// margin-left: $phone-width / -2;	
+		.navbar-inner
+		{
+			width: 100%;
+			.brand
+			{
+				padding: 3px 0 0 10px;
+			}
+			.nav a
+			{
+				padding: 9px 10px 13px;
+			}
+		}
+	}
+
+	.span1
+	{
+		width: $phone-width;
+		margin: 0;
+		padding: 0 5%;
+		.text-header
+		{
+			text-align: center;
+		}
+		.columns
+		{
+			.column
+			{
+				padding-left: 0;
+				width: 100%;
+				display: block;	
+				color: #ebe5dd;
+				.quote
+				{
+					display: inline-block;
+					text-align: center;
+					margin: 10px 0;
+					color: #ebe5dd;
+				}
+				.maturity
+				{
+					display: block;
+				}
+			}
+		}
+		.columns:after
+		{
+			content: none;
+		}
+	}
+	.footer
+	{
+		position: static;
+		width: $phone-width;
+		.content
+		{
+			padding: 0;
+			.social
+			{
+				margin-top: 0;
+				top: 60px;
+			}
+			.logo
+			{
+				display: none;
+			}
+			.text
+			{
+				display: inline-block;
+				margin: 0 !important;
+				text-align: center;
+				padding: 0 3%;
+				width: 100%;
+				float: none;
+			}
+			.glass
+			{
+				padding: 0;
+				margin: 20px auto;
+				width: 80%;
+				border-bottom: 1px solid rgba(0,0,0,0.18);
+				.sprite
+				{
+					position: absolute;
+					bottom: 12px;
+					left: 50%;
+					margin-left: -10px;
+				}
+			}
+		}
+	}
+
+	.main-button
+	{
+		span
+		{
+			padding: 0 5px;
+			font-size: 16px;
+		}
+	   .mobile
+	   {
+	   		display: inline;
+	   		font-style: normal;
+	   }
+	}
+
+	//Product page
+	.product
+	{
+		.header
+		{
+			.cert
+			{
+				display: none;
+			}
+			.info
+			{
+				left: 50%;
+				margin-left: -140px;
+				top: 100px;
+			}
+		}
+		.strip
+		{
+			text-align: center;
+			.price
+			{
+				width: 72px;
+				.note
+				{
+					font-size: 10px;
+				}
+			}
+			.number
+			{
+				margin-left: 2px;
+			}
+			.button
+			{
+				margin-left: 0.5%;
+			}
+		}
+	}
+}	

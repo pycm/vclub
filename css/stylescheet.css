@@ -7,6 +7,9 @@
 body {
   background: url(../img/bg-main.jpg); }
 
+.mobile {
+  display: none; }
+
 .main-button {
   display: inline-block;
   text-transform: uppercase; }
@@ -1011,3 +1014,104 @@ body .form-radio {
   width: 300px; }
 .popup_type_billing2 .content .popup-confirm {
   margin-top: 40px; }
+
+@media (max-width: 767px) {
+  body {
+    padding: 0; }
+
+  .desctop {
+    display: none; }
+
+  .row {
+    width: 100%;
+    background: none;
+    box-shadow: none;
+    padding-bottom: 60px; }
+
+  .welcome {
+    display: none; }
+
+  .navbar {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    .navbar .navbar-inner {
+      width: 100%; }
+      .navbar .navbar-inner .brand {
+        padding: 3px 0 0 10px; }
+      .navbar .navbar-inner .nav a {
+        padding: 9px 10px 13px; }
+
+  .span1 {
+    width: 100%;
+    margin: 0;
+    padding: 0 5%; }
+    .span1 .text-header {
+      text-align: center; }
+    .span1 .columns .column {
+      padding-left: 0;
+      width: 100%;
+      display: block;
+      color: #ebe5dd; }
+      .span1 .columns .column .quote {
+        display: inline-block;
+        text-align: center;
+        margin: 10px 0;
+        color: #ebe5dd; }
+      .span1 .columns .column .maturity {
+        display: block; }
+    .span1 .columns:after {
+      content: none; }
+
+  .footer {
+    position: static;
+    width: 100%; }
+    .footer .content {
+      padding: 0; }
+      .footer .content .social {
+        margin-top: 0;
+        top: 60px; }
+      .footer .content .logo {
+        display: none; }
+      .footer .content .text {
+        display: inline-block;
+        margin: 0 !important;
+        text-align: center;
+        padding: 0 3%;
+        width: 100%;
+        float: none; }
+      .footer .content .glass {
+        padding: 0;
+        margin: 20px auto;
+        width: 80%;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.18); }
+        .footer .content .glass .sprite {
+          position: absolute;
+          bottom: 12px;
+          left: 50%;
+          margin-left: -10px; }
+
+  .main-button span {
+    padding: 0 5px;
+    font-size: 16px; }
+  .main-button .mobile {
+    display: inline;
+    font-style: normal; }
+
+  .product .header .cert {
+    display: none; }
+  .product .header .info {
+    left: 50%;
+    margin-left: -140px;
+    top: 100px; }
+  .product .strip {
+    text-align: center; }
+    .product .strip .price {
+      width: 72px; }
+      .product .strip .price .note {
+        font-size: 10px; }
+    .product .strip .number {
+      margin-left: 2px; }
+    .product .strip .button {
+      margin-left: 0.5%; } }
