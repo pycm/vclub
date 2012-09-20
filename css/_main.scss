@@ -329,6 +329,11 @@ body .form-radio
 
         position: relative;
         text-align: center;
+        color: #fff;
+
+        font-weight: normal;
+
+        text-transform: uppercase;
     }
     .content-header::after
     {
@@ -359,6 +364,7 @@ body .form-radio
         @include h2;
 
         color: $color-gold;
+        text-transform: uppercase;
     }
     .columns
     {
@@ -378,6 +384,7 @@ body .form-radio
             .maturity
             {
                 color: $color-gold;
+                text-transform: uppercase;
             }
         }
     }
