@@ -552,15 +552,18 @@ body .form-radio {
 .account .header {
   height: 110px;
   background: url(../img/header-account.jpg) 0 0 no-repeat; }
-.account .text-header .sprite {
-  width: 176px;
-  height: 20px;
-  background-position: 0px -42px; }
+.account .text-header {
+  margin-top: 28px;
+  margin-bottom: 18px; }
+  .account .text-header .sprite {
+    width: 176px;
+    height: 20px;
+    background-position: 0px -42px; }
 .account .chapter {
   font: 0/0 a;
   margin-bottom: 15px; }
   .account .chapter .chapter-header {
-    margin: 0;
+    margin: 0 0 5px 0;
     padding: 0;
     text-align: left;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -592,7 +595,7 @@ body .form-radio {
   vertical-align: top;
   margin: 0 1px 0 0;
   width: 315px;
-  height: 100px;
+  height: 99px;
   background: #23211e;
   /* Old browsers */
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzIzMjExZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxNTEzMTAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -614,7 +617,7 @@ body .form-radio {
     float: left;
     width: 54px;
     height: 88px;
-    margin: 6px;
+    margin: 3px;
     padding-top: 12px;
     background: #1b1915;
     -webkit-box-shadow: inset 0 3px 7px #211f1c;
@@ -622,7 +625,7 @@ body .form-radio {
     box-shadow: inset 0 3px 7px #211f1c; }
     .account .module .module-rank .up,
     .account .module .module-rank .down {
-      margin: 2px auto;
+      margin: 5px auto;
       opacity: 0.2;
       -webkit-transition: all 0.3s ease-in-out 0;
       -moz-transition: all 0.3s ease-in-out 0;
@@ -644,7 +647,7 @@ body .form-radio {
       opacity: 1; }
   .account .module .module-header {
     margin: 0 10px 0 75px;
-    padding: 12px 0 10px;
+    padding: 8px 0 12px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
@@ -664,7 +667,7 @@ body .form-radio {
   .account .module .module-buttons {
     position: absolute;
     right: 0;
-    bottom: 6px; }
+    bottom: 10px; }
     .account .module .module-buttons .button-small {
       margin-right: 4px; }
 .account .module_adress .module-header,
@@ -681,15 +684,15 @@ body .form-radio {
   width: 630px; }
 .account .module_libr .module-enjoy {
   float: left;
-  margin: -5px 15px 0; }
+  margin: -6px 13px 0; }
   .account .module_libr .module-enjoy .sprite {
     width: 68px;
-    height: 100px;
+    height: 95px;
     background-position: -390px 0px; }
 .account .module_libr .module-cover {
   float: left;
-  margin-top: 10px;
-  padding-left: 10px;
+  margin-top: 2px;
+  padding-left: 6px;
   border-left: 1px solid black; }
   .account .module_libr .module-cover img {
     border: 1px solid #000; }
@@ -919,7 +922,7 @@ body .form-radio {
   height: 25px;
   padding-right: 14px;
   border-right: 1px solid #745B1C;
-  background-position: -211px -39px; }
+  background-position: -237px -39px; }
 
 .popup_type_billing2 .content .popup-header {
   margin-bottom: 20px; }

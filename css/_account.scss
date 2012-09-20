@@ -7,6 +7,9 @@
     }
     .text-header
     {
+        margin-top: 28px;
+        margin-bottom: 18px;
+
         .sprite
         {
             width: 176px;
@@ -22,7 +25,7 @@
 
         .chapter-header
         {
-            margin: 0;
+            margin: 0 0 5px 0;
             padding: 0;
 
             text-align: left;
@@ -74,7 +77,7 @@
 
         margin: 0 1px 0 0;
         width:315px;
-        height: 100px;
+        height: 99px;
 
         background: #23211e; /* Old browsers */
         background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzIzMjExZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxNTEzMTAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -96,7 +99,7 @@
 
             width: 54px;
             height: 88px;
-            margin: 6px;
+            margin: 3px;
             padding-top: 12px;
 
             background: #1b1915;
@@ -106,7 +109,7 @@
             .up,
             .down
             {
-                margin: 2px auto;
+                margin: 5px auto;
                 opacity: 0.2;
                 @include transition(all, .3s, ease-in-out, 0);
             }
@@ -137,7 +140,7 @@
         .module-header
         {
             margin: 0 10px 0 75px;
-            padding: 12px 0 10px;
+            padding: 8px 0 12px;
 
             @include text;
 
@@ -163,7 +166,7 @@
         {
             position: absolute;
             right: 0;
-            bottom: 6px;
+            bottom: 10px;
 
             .button-small
             {
@@ -203,12 +206,12 @@
         {
             float: left;
 
-            margin: -5px 15px 0;
+            margin: -6px 13px 0;
 
             .sprite
             {
                 width: 68px;
-                height: 100px;
+                height: 95px;
 
                 background-position: -390px 0px;
             }
@@ -217,8 +220,8 @@
         {
             float: left;
             
-            margin-top: 10px;
-            padding-left: 10px;
+            margin-top: 2px;
+            padding-left: 6px;
             border-left: 1px solid black;
 
             img
