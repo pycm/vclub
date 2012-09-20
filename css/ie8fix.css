@@ -1,0 +1,31 @@
+.navbar
+{
+	background: #1d1b1b;
+	border-bottom: none;
+}
+
+.main-button span
+{
+	background: #F7DD92;
+}
+
+.nav .active,
+.nav li:hover
+{
+    border-bottom: 1px solid #ffae00;
+}
+
+.nav
+{
+	border-left: 1px solid #000;
+}
+
+.nav li
+{
+	border-right: 1px solid #000;
+}
+
+.navbar .navbar-inner .nav a
+{
+	padding-bottom: 13px;
+}
