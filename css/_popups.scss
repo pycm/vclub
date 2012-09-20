@@ -42,7 +42,8 @@
 
         max-width: 665px;
     	min-width: 100px;
-        padding: 35px 30px 35px 168px;
+    
+        padding: 16px 30px 16px 168px;
 
     	background: #000;
 
@@ -51,8 +52,8 @@
         {
             position: absolute;
 
-            top: 35px;
-            left: 30px;
+            top: 18px;
+            left: 31px;
             .sprite
             {
                 width: 90px;
@@ -95,6 +96,7 @@
         {
             color: #fff;
             margin-bottom: 20px;
+            text-transform: uppercase;
         }
         .popup_text_inline
         {
@@ -115,12 +117,13 @@
         {
             margin-top: 5px;
             font-size: 14px;
+            width: 262px;
         }
         label
         {
             .form-text_city
             {
-                width: 130px;
+                width: 120px;
             }
             .form-text_state
             {
@@ -170,26 +173,57 @@
                 background-position: 0 -91px;
             }
         }
+        .popup-text
+        {
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            .form-text_exp1
+            {
+                width: 48px;
+            }
+            .form-text_exp2
+            {
+                width: 48px;
+                margin-right: 94px;
+            }
+        }
         .form-text
         {
             width: 370px;
+        }
+        .popup-confirm
+        {
+            margin-top: 20px;
         }
     }
 }
 .popup_type_billing
 {
     .content
-    {
+    {   
         .popup-header
         {
             margin-bottom: 20px;
-
             .sprite
             {
                 width: 300px;
                 height: 47px;
 
                 background-position: 0 -145px;
+            }
+        }
+        .popup-text
+        {
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            .form-text_exp1
+            {
+                width: 48px;
+            }
+            .form-text_exp2
+            {
+                width: 48px;
+                margin-right: 94px;
             }
         }
         .form-text
@@ -200,6 +234,7 @@
     .save-card
     {
         color: $color-gold;
+        margin-top: 36px;
 
         position: relative;
 
@@ -208,15 +243,19 @@
             position: absolute;
             margin: 0;
             top: 5px;
-            left: -20px;
+            left: -26px;
         }
+    }
+    .popup-confirm
+    {
+        margin-top: 20px;
     }
     .popup-card
     {
         position: absolute;
 
-        left: 20px;
-        top: 135px;
+        left: 25px;
+        top: 114px;
 
         .sprite
         {
@@ -253,6 +292,8 @@
 {
     .content
     {
+        padding-bottom: 45px;
+
         .popup-header
         {
             margin-bottom: 20px;
@@ -268,6 +309,22 @@
         .popup-text
         {
             margin-top: 44px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+
+            .form-text_exp1
+            {
+                width: 48px;
+            }
+            .form-text_exp2
+            {
+                width: 48px;
+                margin-right: 94px;
+            }
+        }
+        .form-text
+        {
+            width: 370px;
         }
         .main-button_add-photo span
         {
@@ -339,6 +396,11 @@
             {
                 width: 300px;
             }
+        }
+
+        .popup-confirm
+        {
+            margin-top: 40px;
         }
     }
 }
